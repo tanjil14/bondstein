@@ -18,8 +18,8 @@ const findIndices = (targetSum, numbers) => {
 };
 
 // usage:
-const targetSum = 10;
-const numbers = [1, 2, 4, 6, 7, 8, 9, 10];
+const targetSum = 11;
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const result = findIndices(targetSum, numbers);
 
 if (result !== null) {
